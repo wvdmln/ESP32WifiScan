@@ -8,7 +8,7 @@
 void setup()
 {
     Serial.begin(115200);
-    Serial.println ("WifiScan");
+    Serial.println ("ESP32WifiScan");
     // Set WiFi to station mode and disconnect from an AP if it was previously connected
     WiFi.mode(WIFI_STA);
     WiFi.disconnect();
